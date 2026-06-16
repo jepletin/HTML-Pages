@@ -1,93 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Mock</title>
-    <link rel="stylesheet" href="/youtube.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
 
-  <body>
+<body>
     <div class="page-container">
-      <h2 class="page-title">YouTube Page</h2>
-      <div>
-        <span>
-          <img src="images/tube.png" alt=" youtube logo" />
-        </span>
-      </div>
-      <div class="search">
-        <input type="text" class="search-input" placeholder="search" />
-        <button class="search-btn">🔍</button>
-      </div>
-      <div class="user-profile"></div>
-      <div class="video-player">
-        <span>
-            <img src="images/curry.jpeg" alt="curry" style="margin-top: 5px;">
-        </span>
-        <div class="play-button"></div>
-      </div>
-      <div class="video-details">
-        <h2 class="video-title">
-          Steph Curry & DeMarcus Postgame Interview - Game 2 | Warriors vs
-          Raptors |2019 NBA Finals
-        </h2>
-        <div class="views">290,399 views</div>
-        <div class="video-likes">
-          <div class="action-btn">
-            <i class="fa-solid fa-thumbs-up"></i>111K
-          </div>
-          <div class="action-btn">
-            <i class="fa-regular fa-thumbs-down"></i>532
-          </div>
-          <div class="action-btn"><i class="fa-solid fa-share"></i></div>
-          <div class="action-btn"><i class="fa-solid fa-download"></i></div>
-          <div class="action-btn"><i class="fa-regular fa-bookmark"></i></div>
-          <div class="action-btn"><i class="fa-solid fa-ellipsis"></i></div>
+        <div style="display: flex;align-items: center;">
+            <div class="action-btn"><i class="fa-solid fa-bars"></i></div>
+            <img style="width: 50px; height: 50px;" src="images/tube.png" alt="Youtube">
         </div>
-        <div class="channel-row">
-  <div class="channel-avatar">
-    <img src="images/Espn.png" alt="ESPN Logo">
-  </div>
 
-  <div class="channel-info">
-    <span class="channel-name">
-      ESPN <i class="fa-solid fa-circle-check verified-icon"></i>
-    </span>
-    <span class="channel-meta">Published on Jun 2, 2019</span>
-  </div>
-
-  <button class="subscribe-btn">
-    SUBSCRIBED <i class="fa-solid fa-bell"></i>
-  </button>
-</div>
-        <p class="description">
-          Stephen A. Smith gives his best sales pitch for kevin Durant to sign
-          with the New York kicks ahead of 2019 NBA free agency,saying KD will
-          get whatever he desire courtesy of James Dolan
-        </p>
-        <a href="https://www.youtube.com/watch?v=Iktwgj2klLo">SHOWMORE</a>
-        <p>Up next</p>
-        <a href="https://www.youtube.com/watch?v=Iktwgj2klLo">AUTOPLAY</a>
-        
-   <div style="display:flex;">
-  <div style="display:flex;">
-    <img src="images/curry.jpeg" width="100px"/>
-    <p>Steph Curry & DeMarcus Postgame Interview</p>
-  </div>
-  <div style="display:flex;">
-    <img src="images/curry.jpeg" width="100px"/>
-    <p>Steph Curry & DeMarcus Postgame Interview</p>
-  </div>
-  <div style="display:flex;">
-    <img src="images/curry.jpeg" width="100px"/>
-    <p>Steph Curry & DeMarcus Postgame Interview</p>
-  </div>
-</div>
-      </div>
+        <div class="search">
+            <input type="text" class="search-input" placeholder="search" />
+            <button class="search-btn">🔍</button>
+        </div>
+        <div style="margin-top: 10px;">
+            <img style=" border: 1px solid black;   width: 50px; height: 50px;border-radius: 50%; "
+                src=" data:image/png;base64,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"
+                alt="">
+            <div class="video-player">
+                <video width="320" height="240" controls>
+                    <source src="images/video.mp4" type="video/mp4" </video>
+            </div>
+        </div>
     </div>
-  </body>
+    <!-- section2 -->
+    <div class="video-details">
+        <h2 class="video-title">
+            Steph Curry & DeMarcus Postgame Interview - Game 2 | Warriors vs
+            Raptors |2019 NBA Finals</h2>
+    </div>
+    <!-- section 3 -->
+    <div style="margin-bottom: 10px;">290,399 views</div>
+    <div style="display: flex;gap: 16px; margin-bottom: 15px;">
+        <div class="action-btn"><i class="fa-solid fa-thumbs-up"></i>111K</div>
+        <div class="action-btn"><i class="fa-regular fa-thumbs-down"></i>532</div>
+        <div class="action-btn"><i class="fa-solid fa-share"></i></div>
+        <div class="action-btn"><i class="fa-solid fa-download"></i></div>
+        <div class="action-btn"><i class="fa-regular fa-bookmark"></i></div>
+        <div class="action-btn"><i class="fa-solid fa-ellipsis"></i></div>
+    </div>
+    <!-- section 4  -->
+    <div style="display: flex;">
+        <div style="margin-right: 10px;">
+            <img style="width: 50px; height: 50px; border-radius: 50%;"
+                src="data:image/png;base64,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"
+                alt="ESPN Logo">
+        </div>
+        <div class="channel-info" style="margin-right: 6px;">ESPN <i class="fa-solid fa-circle-check verified-icon"></i>
+            <p>Published on Jun 2, 2019</p>
+        </div>
+        <button style="height: 23px;">SUBSCRIBED 1M <i class="fa-solid fa-bell"></i></button>
+    </div>
+    <div>
+        <p class="description">
+            Stephen A. Smith gives his best sales pitch for kevin Durant to sign
+            with the New York kicks ahead of 2019 NBA free agency,saying KD will
+            get whatever he desire courtesy of James Dolan
+        </p>
+    </div>
+    <a href="https://www.youtube.com/watch?v=Iktwgj2klLo">SHOWMORE</a>
+    <p>Up next</p>
+    <a href="https://www.youtube.com/watch?v=Iktwgj2klLo">AUTOPLAY</a>
+    
+    <div style="display:flex;">
+        <div style="display:flex;">
+            <img src="images/curry.jpeg" width="100px" />
+            <p>Steph Curry & <br>DeMarcus Postgame Interview</p>
+        </div>
+        <div style="display:flex;">
+            <img src="images/curry.jpeg" width="100px" />
+            <p>Steph Curry & <br>DeMarcus Postgame Interview</p>
+        </div>
+        <div style="display:flex;">
+            <img src="images/curry.jpeg" width="100px" />
+            <p>Steph Curry & <br>DeMarcus Postgame Interview</p>
+        </div>
+    </div>
+
+    </div>
+</body>
+
 </html>
